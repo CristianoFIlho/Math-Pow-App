@@ -2,54 +2,111 @@ import 'package:quiz_app/models/quiz_question.dart';
 
 const questions = [
   QuizQuestion(
-    'What are the main building blocks of Flutter UIs?',
+    'Qual é o resultado de 2 + 2?',
     [
-      'Widgets',
-      'Components',
-      'Blocks',
-      'Functions',
-    ],
-  ),
-  QuizQuestion('How are Flutter UIs built?', [
-    'By combining widgets in code',
-    'By combining widgets in a visual editor',
-    'By defining widgets in config files',
-    'By using XCode for iOS and Android Studio for Android',
-  ]),
-  QuizQuestion(
-    'What\'s the purpose of a StatefulWidget?',
-    [
-      'Update UI as data changes',
-      'Update data as UI changes',
-      'Ignore data changes',
-      'Render UI that does not depend on data',
+      '4',
+      '3',
+      '5',
+      '6',
     ],
   ),
   QuizQuestion(
-    'Which widget should you try to use more often: StatelessWidget or StatefulWidget?',
+    'Quantos lados tem um triângulo?',
     [
-      'StatelessWidget',
-      'StatefulWidget',
-      'Both are equally good',
-      'None of the above',
+      '3',
+      '4',
+      '5',
+      '6',
     ],
   ),
   QuizQuestion(
-    'What happens if you change data in a StatelessWidget?',
+    'Qual é o próximo número na sequência: 1, 2, 3, 4, ...?',
     [
-      'The UI is not updated',
-      'The UI is updated',
-      'The closest StatefulWidget is updated',
-      'Any nested StatefulWidgets are updated',
+      '5',
+      '6',
+      '7',
+      '8',
     ],
   ),
   QuizQuestion(
-    'How should you update data inside of StatefulWidgets?',
+    'Quanto é 10 - 4?',
     [
-      'By calling setState()',
-      'By calling updateData()',
-      'By calling updateUI()',
-      'By calling updateState()',
+      '6',
+      '5',
+      '7',
+      '4',
+    ],
+  ),
+  QuizQuestion(
+    'Quantos minutos há em uma hora?',
+    [
+      '60',
+      '30',
+      '45',
+      '90',
+    ],
+  ),
+  QuizQuestion(
+    'Qual é o valor de 5 x 3?',
+    [
+      '15',
+      '10',
+      '20',
+      '25',
+    ],
+  ),
+  QuizQuestion(
+    'Quanto é 8 ÷ 2?',
+    [
+      '4',
+      '2',
+      '6',
+      '8',
+    ],
+  ),
+  QuizQuestion(
+    'Quantos dias há em uma semana?',
+    [
+      '7',
+      '5',
+      '10',
+      '12',
+    ],
+  ),
+  QuizQuestion(
+    'Qual é o próximo número na sequência: 10, 20, 30, 40, ...?',
+    [
+      '50',
+      '60',
+      '70',
+      '80',
+    ],
+  ),
+  QuizQuestion(
+    'Quanto é 7 + 5?',
+    [
+      '12',
+      '10',
+      '11',
+      '13',
+    ],
+  ),
+  QuizQuestion(
+    'Quantos meses há em um ano?',
+    [
+      '12',
+      '10',
+      '11',
+      '13',
+    ],
+  ),
+  QuizQuestion(
+    'Qual é o valor de 9 x 2?',
+    [
+      '18',
+      '16',
+      '20',
+      '22',
     ],
   ),
 ];

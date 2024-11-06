@@ -12,12 +12,12 @@ class StartScreen extends StatelessWidget {
         mainAxisAlignment: MainAxisAlignment.center,
         children: [
           Image.asset(
-            'assets/images/quiz-logo.png',
+            'assets/images/mathpow.png',
             width: 300,
           ),
           const SizedBox(height: 80),
           const Text(
-            'Learn Flutter the fun way!',
+            'Math.Pow: Contando e apredendo com você!',
             style: TextStyle(
               fontSize: 24,
               color: Colors.white,
@@ -30,7 +30,7 @@ class StartScreen extends StatelessWidget {
               foregroundColor: Colors.white,
             ),
             onPressed: startQuiz,
-            label: const Text('Start Quiz'),
+            label: const Text('Começe a aprender!'),
           ),
         ],
       ),

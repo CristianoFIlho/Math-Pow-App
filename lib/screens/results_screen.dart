@@ -43,7 +43,7 @@ class ResultsScreen extends StatelessWidget {
           children: [
             Text(
               textAlign: TextAlign.center,
-              'You answered $numCorrectQuestions out of $numTotalQuestions questions correctly!',
+              'Você acertou $numCorrectQuestions de $numTotalQuestions perguntas!',
               style: const TextStyle(
                 fontSize: 14,
                 fontWeight: FontWeight.bold,
@@ -59,7 +59,7 @@ class ResultsScreen extends StatelessWidget {
               ),
               icon: const Icon(Icons.restart_alt),
               onPressed: onRestart,
-              label: const Text('Restart Quiz!'),
+              label: const Text('Recomeçar agora!'),
             ),
           ],
         ),
